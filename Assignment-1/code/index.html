@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width">
-<title>Designing Web App using HTML/CSS/REACT</title>
-<link rel="stylesheet" href="style.css" />
-<script src="https://unpkg.com/react@17/umd/react.development.js"></script>
-<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-<!-- Don't use this in production: -->
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-</head>
-<body>
-    <div id="root"></div>
-    <script type="text/babel">
-//React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
 
-</script>
-<!--
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width">
+  <title>Designing Web App using HTML/CSS/REACT</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <!-- Don't use this in production: -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    //React Code here
+    var container = document.createElement("div");
+    var cell1 = document.createElement("div");
+    var cell2 = document.createElement("div");
+    var cell3 = document.createElement("div");
+    var cell4 = document.createElement("div");
+    var cell5 = document.createElement("div");
+    var cell6 = document.createElement("div");
+    container.setAttribute("class", "container");
+    cell1.setAttribute("class", "cell cell-1");
+    cell2.setAttribute("class", "cell cell-2");
+    cell3.setAttribute("class", "cell cell-3");
+    cell4.setAttribute("class", "cell cell-4");
+    cell5.setAttribute("class", "cell cell-5");
+    cell6.setAttribute("class", "cell cell-6");
+
+    document.body.appendChild(container)
+    container.appendChild(cell1);
+    container.appendChild(cell2);
+    container.appendChild(cell3);
+    container.appendChild(cell4);
+    container.appendChild(cell5);
+    container.appendChild(cell6);
+
+
+
+    ReactDOM.render(<div></div>, document.getElementById('root'));
+
+  </script>
+  <!--
      Note: this page is a great way to try React but it's not suitable for production.
      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
      Read this section for a production-ready setup with JSX:
@@ -28,4 +55,5 @@
      https://reactjs.org/docs/react-without-jsx.html
    -->
 </body>
+
 </html>
