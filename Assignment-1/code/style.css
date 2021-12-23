@@ -1,1 +1,246 @@
 
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+    
+    body{
+        background-color: lightgray;
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+       
+    }
+    
+    
+    .container{
+        height: 100vh;
+        border: 5px solid black;
+        display: grid;
+        gap: 20px 20px;
+        grid-template-columns: repeat(3 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+        "a a a b b b"
+        "a a a b b b"
+        "c c c c c c"
+        "c c c c c c"
+        "d d d e e e"
+        "d d d e e e";
+        
+    }
+        
+    
+    .cell {
+        padding: 2rem;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .cell-1 {
+        background-color: yellow;
+        grid-area: a;
+    
+    
+    }
+    
+    .cell-2 {
+        background-color:yellow;
+        grid-area: b;
+     
+    
+    }
+    
+    .cell-3 {
+        background-color:orangered;
+        grid-area: c;
+       
+    
+    
+    }
+    
+    .cell-4 {
+        background-color: blueviolet;
+        grid-area: d;
+    
+    
+    }
+    
+    .cell-5 {
+        background-color:blueviolet;
+        grid-area: e;
+    
+    
+    }
+    
+   
+     
+ 
+
+ 
+ @media screen and (max-width:768px) {
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body{
+        background-color: lightgray;
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+       
+    }
+    
+    
+    .container{
+        height: 100vh;
+        border: 5px solid black;
+        display: grid;
+        gap: 20px 20px;
+        grid-template-columns: repeat(3 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-areas:
+        "a a a b b b"
+        "a a a b b b"
+        "c c c c c c"
+        "c c c c c c"
+        "d d d d d d "
+        "e e e e e e"
+        
+    }
+        
+    
+    .cell {
+        padding: 2rem;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .cell-1 {
+        background-color: yellow;
+        grid-area: a;
+    
+    
+    }
+    
+    .cell-2 {
+        background-color:yellow;
+        grid-area: b;
+     
+    
+    }
+    
+    .cell-3 {
+        background-color:orangered;
+        grid-area: c;
+       
+    
+    
+    }
+    
+    .cell-4 {
+        background-color: blueviolet;
+        grid-area: d;
+    
+    
+    }
+    
+    .cell-5 {
+        background-color:blueviolet;
+        grid-area: e;
+    
+    
+    }
+    
+    /* .cell-6 {
+        background-color: blueviolet;
+        grid-area: f;
+     } */
+
+     
+ }
+
+ @media screen and (max-width:320px) {
+     
+ 
+ *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+   
+}
+
+
+.container{
+    height: 100vh;
+    border: 5px solid black;
+    display: grid;
+    gap: 20px 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+    "a a a a a a"
+    "b b b b b b"
+    "c c c c c c"
+    "d d d d d d "
+    "e e e e e e"
+}
+    
+
+.cell {
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.cell-1 {
+    background-color: yellow;
+
+
+}
+
+.cell-2 {
+    background-color:yellow;
+ 
+
+}
+
+.cell-3 {
+    background-color:orangered;
+   
+
+
+}
+
+.cell-4 {
+    background-color: blueviolet;
+
+
+}
+
+.cell-5 {
+    background-color:blueviolet;
+
+
+}
+
+/* .cell-6 {
+    background-color: blueviolet;
+} */
+
+}
+
