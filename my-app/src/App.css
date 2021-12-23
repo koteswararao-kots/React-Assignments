@@ -1,0 +1,22 @@
+
+.userData{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+ 
+
+}
+p{
+  color: rgb(190, 169, 169);
+  text-align: left;
+}
+h1{
+  color: rgb(25, 179, 240);
+}
+img{
+  margin-top: 20px;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
