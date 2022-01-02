@@ -1,3 +1,9 @@
+*{
+ 
+  margin: 0;
+  padding: 0;
+}
+
 .site-container{
   text-align: center;
 }
@@ -9,3 +15,115 @@ body {
   color: black;
   margin:0;
 } 
+
+.navBar{
+  height: 50px;
+  text-align: left;
+  border: 1px solid lightblue;
+  border-bottom: 3px solid  lightblue;
+  padding: 0px 50px;
+  padding-bottom: 10px;
+  background: pink;
+}
+
+.instaLogo{
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  border-radius: 70%;
+}
+.logoName{
+  color: green;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: cursive;
+  position:absolute;
+  left: 100px;
+  margin-top: 15px;
+}
+
+.camera{
+  height: 30px;
+  width: auto;
+  position:absolute;
+  right: 50px;
+  margin-top: 15px;
+  border-radius: 30px;
+}
+
+.Posts{
+  width: 40vw;
+  margin: 20px;
+  margin: 20px auto;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.75);
+}
+
+
+
+.profImage{
+  height: 250px;
+  width: 100%;
+}
+.post-details{
+  text-align: left;
+}
+
+.userDetails{
+  width: 200px;
+  float: left;
+  margin-left: 20px;
+}
+
+.userDetails p{
+  font-weight: 700;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.threedots{
+  float: right;
+  height: 30px;
+  width: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 40%;
+}
+
+.actions{
+  text-align: left;
+}
+
+.likeImage, .shareImage{
+  height: 30px;
+  width: auto; 
+  margin: 3px;
+  margin-left: 10px;
+
+}
+
+.date{
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  color: gray;
+  font-weight: 700;
+}
+
+.likes {
+  margin-left: 15px;
+  color: gray;
+  font-weight: 700;
+  
+ 
+}
+
+.description {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
