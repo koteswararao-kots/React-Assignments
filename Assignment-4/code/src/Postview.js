@@ -1,4 +1,5 @@
 import React, {useState, useEffect } from 'react';
+
 import './Postview.css';
 import threeDots from './images/threeDots.png';
 import camera from './images/camera.png';
@@ -24,12 +25,6 @@ const Postview=()=> {
   }, []);
     
     
-    
-    
-    
-    
-   
-
   return (
     
     <div className="site-container">

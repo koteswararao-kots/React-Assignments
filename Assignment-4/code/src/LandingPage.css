@@ -1,0 +1,80 @@
+
+.LandingPage-container{
+    text-align: center;
+}
+
+    .Page-section{
+        margin: 40px 180px;
+        /* padding: 20px; */
+        display: flex;
+        color: green;
+        flex-flow: row;
+       
+       
+  }
+
+  .Text-container{
+    
+    margin: 40px;
+    padding:10px;
+
+}
+
+.Button{
+    text-decoration: none;
+    margin: 40px;
+    padding:10px;
+    flex-flow: column;
+    font-size: 20px;
+ 
+
+    
+ 
+
+    color: green;
+   
+    
+    
+
+}
+/*   
+  .Image-container{
+      text-align: center;
+
+    
+    
+  
+  }
+  .Text-container{
+      float: right;
+      margin-top: 40px;
+  
+  }
+  .Button{
+      text-decoration: none;
+      padding-top: 50px;
+      margin-top: 80px ;
+      color: green;
+      margin-right: 50px;
+      
+      margin-top: 80px ;
+      margin-right: 80px; 
+      flex-wrap: initial;
+
+      color: green;
+     
+      
+      
+  
+  }
+  .Page-section{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    color: green;
+    text-align: center;
+
+     
+
+  }
+   */
